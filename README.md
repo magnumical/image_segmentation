@@ -51,7 +51,7 @@ To run inference using the trained model, use the following command:
 
 for example: 
 
-```python inference.py --dataset dataset.pickle --model unet_50_epochs.pth```
+```python inference.py --dataset dataset.pickle --model unet_100_epochs.pth```
 
 ## Evaluation Metrics
 

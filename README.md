@@ -2,6 +2,15 @@
 
 This repository provides the implementation for training and evaluating a U-Net model for image segmentation using a ResNet-34 encoder.
 
+
+## Sample Results
+
+| Raw Image       | True Mask       | Predicted Mask*  |
+|-----------------|------------------|------------------|
+| ![Raw Image](img/1.jpg) | ![True Mask](img/2.jpg) | ![Predicted Mask](img/3.jpg) |
+
+* Overlay made using a model trained with 100 epochs, 16 batch size, and learning rate 0.001.
+
 ## Setup
 To get started, follow these steps:
 
